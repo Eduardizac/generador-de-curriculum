@@ -22,56 +22,64 @@
 </head>
 <body>
     
+   
 
 
 
 <div class="cuerpo">
+<div class="textarriba">
+                                            <h3> CURRICULUM VITAE </h3>
+                                            <?php //echo $variable[actividad1][1]["ESTUDIOS"];?>
+</div>
     <div class="cuerpo2">
 
-    <h1> hola mundo </h1>
-    <br>
-<br>
-<br>
-
+  
 <br>
 <br>
     <div class="cuerpo3">
-    <div class="algo"><?php echo $variable[actividad1][0]["NOMBRE"];?></div>
+                        <div class="algo"> <h1> <?php echo $variable[actividad1][0]["NOMBRE"];?> </h1> </div>
          
      <h1 class="textocabecera">  </h1>
+
+
+
+
    </div>
-   <div class="quiensoy">
+    <div class="quiensoy">
+
+    <h3>Quien Soy <br>
+         <?php echo $variable[actividad1][1]["QUIENSOY"];?>
+         </h3>
+    <br>
+    <br>
+   <h3> Lista de software que usted sabe usor <br>
+        <?php echo $variable[actividad1][1]["PROGRAMAS"];?> 
+        /<h3>
+    <br>
+    <br>
+    <h3> Lista de idiomas que usted sabe hablar <br>
+    <?php echo $variable[actividad1][1]["IDIOMAS"];?> 
+</h3>
+    <br>
+    <br>
+    <h3> Referencias personales y laborales <br>
+    <?php echo $variable[actividad1][1]["REFERENCIAS"];?>
+</h3>
+    <br>
+    <br>
    
-   <h3>QUIEN SOY </h3>
    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aliquid nulla perferendis optio
-     hic assumenda unde magnam minima facilis reiciendis, dolorem, enim ad amet molestias? Deleniti a
-     rchitecto impedit laudantium quidem?
-     
-     </p>
+
+
 </div>
-   <br>
-<br>
+
+
+
 </div>
+
 </div>
-<?php ?>
-
-<?php
-  
 
 
-?>
-
-
-<?php /*
-
-
-echo "<p> $nombre </p>";
-echo "<p> $apellido </p>";
-echo "<p> $direccion </p>";
-echo "<p> $email </p>";
-*/
-?>
 
 
 

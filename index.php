@@ -24,6 +24,7 @@
 
 <!-- FORMULARIO -->
 
+
 <form action="curriculum.php" method="post">
   <div class="form-group">
     <label for="exampleFormControlInput1">NOMBRE Y APELLIDO</label>
